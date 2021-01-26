@@ -4,24 +4,18 @@
 	<title>Tourism & Travel Website</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
-
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<link rel="stylesheet" href="css/animate.css">
-	
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
 	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
 	<link rel="stylesheet" href="css/jquery.timepicker.css">
-
-	
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/2915bda088.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -34,6 +28,12 @@
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#!" class="nav-link">Doctor Appointment</a></li>
+					<li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
+					<li class="nav-item"><a href="#!" class="nav-link">Travel Tickets</a></li>
+					<li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
+					<li class="nav-item"><a href="#!" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -60,6 +60,8 @@
 				</div>
 			</div>
 		</section>
+
+		
 
 		<section class="ftco-section services-section">
 			<div class="container">
@@ -112,6 +114,62 @@
 										<p>Some random text describing about the features and the services you offer</p>
 									</div>
 								</div>      
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="ftco-section testimony-section bg-bottom" style="background-image: url(images/bg_1.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center pb-4">
+					<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+						<span class="subheading">Services We Offer</span>
+						<h2 class="mb-4">Company Name</h2>
+					</div>
+				</div>
+				<div class="row ftco-animate">
+					<div class="col-md-12">
+						<div class="carousel-testimony owl-carousel">
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<center>
+										<i class="fas fa-route text-danger h1"></i>
+										<h1>Tourism</h1>
+									</center>
+									<div class="text">
+										<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+										<a class="text-center" href="#!">View More</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+								<center>
+									<i class="fas fa-user-md text-danger h1"></i>
+									<h1>Doctor</h1>
+								</center>
+								<div class="text">
+									<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+									<a class="text-center" href="#!">View More</a>
+								</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+								<center>
+									<i class="fas fa-plane-departure text-danger h1"></i>
+									<h1>Travel Tickets</h1>
+								</center>
+								<div class="text">
+									<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+									<a class="text-center" href="#!">View More</a>
+								</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -287,6 +345,73 @@
 			</div>
 		</section>
 
+
+		<footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/bg_3.jpg);">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md pt-5">
+						<div class="ftco-footer-widget pt-md-5 mb-4">
+							<h2 class="ftco-heading-2">About</h2>
+							<p>
+								Some information about the company of yours and some random text also
+							</p>
+							<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+								<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+								<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md pt-5 border-left">
+						<div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+							<h2 class="ftco-heading-2">Infromation</h2>
+							<ul class="list-unstyled">
+								<li><a href="#" class="py-2 d-block">Link 1</a></li>
+								<li><a href="#" class="py-2 d-block">Link 2</a></li>
+								<li><a href="#" class="py-2 d-block">Link 3</a></li>
+								<li><a href="#" class="py-2 d-block">Link 4</a></li>
+								<li><a href="#" class="py-2 d-block">Link 5</a></li>
+								<li><a href="#" class="py-2 d-block">Link 6</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md pt-5 border-left">
+						<div class="ftco-footer-widget pt-md-5 mb-4">
+							<h2 class="ftco-heading-2">Experience</h2>
+							<ul class="list-unstyled">
+								<li><a href="#" class="py-2 d-block">Home</a></li>
+								<li><a href="#" class="py-2 d-block">Doctor Appointment</a></li>
+								<li><a href="#" class="py-2 d-block">Hotel</a></li>
+								<li><a href="#" class="py-2 d-block">Travel Tickets</a></li>
+								<li><a href="#" class="py-2 d-block">Hotel</a></li>
+								<li><a href="#" class="py-2 d-block">Blog</a></li>
+								<li><a href="#" class="py-2 d-block">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md pt-5 border-left">
+						<div class="ftco-footer-widget pt-md-5 mb-4">
+							<h2 class="ftco-heading-2">Reach Us</h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li><span class="icon fa fa-map-marker"></span><span class="text">Some Address of your</span></li>
+									<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 xxxx-xxx-xxx</span></a></li>
+									<li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+
+						<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Company.com
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						</div>
+					</div>
+				</div>
+			</footer>
 		
 
 			<script src="js/jquery.min.js"></script>
