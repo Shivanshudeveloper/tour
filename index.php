@@ -28,7 +28,7 @@
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="#!" class="nav-link">Doctor Appointment</a></li>
+					<li class="nav-item"><a href="doctors.php" class="nav-link">Doctor Appointment</a></li>
 					<li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
 					<li class="nav-item"><a href="#!" class="nav-link">Travel Tickets</a></li>
 					<li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
