@@ -43,8 +43,8 @@
      <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-            <li class="nav-item active"><a href="doctors.php" class="nav-link">Doctor Appointment</a></li>
-            <li class="nav-item"><a href="travel.php" class="nav-link">Travel Tickets</a></li>
+            <li class="nav-item"><a href="doctors.php" class="nav-link">Doctor Appointment</a></li>
+            <li class="nav-item active"><a href="travel.php" class="nav-link">Travel Tickets</a></li>
             <li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
             <li class="nav-item"><a href="#!" class="nav-link">Blog</a></li>
             <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
@@ -68,7 +68,9 @@
     <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
       <div class="col-md-9 ftco-animate pb-5 text-center">
        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Contact us <i class="fa fa-chevron-right"></i></span></p>
-       <h1 class="mb-0 bread">Doctors Appointment</h1>
+       <h1 class="mb-0 bread">
+        Travel Tickets
+       </h1>
      </div>
    </div>
  </div>
@@ -79,102 +81,38 @@
         <div class="card border-0">
             <div class="card-body">
                 <h2 class="font-weight-bold text-center">
-                    Search By
+                    Travel Tickets
                 </h2>
                 <center>
                     <div class="row w-50">
                         <div class="col">
                             <a href="#!">
-                                <i class="fas fa-user-md h1 text-primary"></i><br />
-                                Doctor
+                                <i class="fas fa-train h1 text-primary"></i><br />
+                                Rail Tickets
                             </a>
                         </div>
                         <div class="col">
                             <a href="#!">
-                                <i class="fas fa-hospital-alt h1 text-secondary"></i> <br />
-                                Hospital
+                                <i class="fas fa-plane-departure h1 text-secondary"></i> <br />
+                                Flight Tickets
                             </a>
                         </div>
                         <div class="col">
                             <a href="#!">
-                                <i class="fas fa-city h1 text-secondary"></i> <br />
-                                City
+                                <i class="fas fa-taxi h1 text-secondary"></i> <br />
+                                Book Cab
                             </a>
                         </div>
                     </div>
                 </center>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Doctors Name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Speciality">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Place">
-            </div>
-        </div>
-        <center>
-            <button class="btn btn-primary float-right mt-2 mb-4">Search</button>
-        </center>
     </div>
 </section>
 
 <section style="padding-top: 8vh;" class="mt-4 mb-4">
     <div class="container">
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
-
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
-
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
-
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
+        
     </div>
 </section>
 
