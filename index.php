@@ -34,20 +34,28 @@
 					<li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
 					<li class="nav-item"><a href="#!" class="nav-link">Blog</a></li>
 					<li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="#!" class="nav-link">
+					<a href="#!" class="btn btn-outline-primary" style="
+						margin-top: -6vh;
+						color: white;
+						border-color: #f15d30;
+						background-color: #f15d30;
+					">Sign In/ Sign Up</a>
+					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- END nav -->
 	
-	<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_5.jpg');">
+	<div class="hero-wrap js-fullheight" style="background-image: url('images/medic.jpg');">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
 				<div class="col-md-7 ftco-animate">
-					<span class="subheading">Welcome to Company Name</span>
-					<h1 class="mb-4">Discover Your Favorite Place with Us</h1>
-					<p class="caps">Travel to the any corner of the world, without going around in circles</p>
+					<span style="font-size: 6vh;" class="subheading">Welcome to Company Name</span>
+					<h1 class="mb-4">Travel Safely with Confidence</h1>
+					<p class="caps">We are international medical travel agency for patients seeking world class treatment at competitive rates.</p>
 				</div>
 			</div>
 		</div>
