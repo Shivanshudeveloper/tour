@@ -114,9 +114,6 @@
                 <input type="text" class="form-control" placeholder="Speciality">
             </div>
             <div class="col">
-                <input type="text" class="form-control" placeholder="Hospital Name">
-            </div>
-            <div class="col">
                 <input type="text" class="form-control" placeholder="Place">
             </div>
         </div>
