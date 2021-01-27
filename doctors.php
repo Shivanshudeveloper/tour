@@ -77,9 +77,35 @@
 
 <section class="ftco-section ftco-no-pb contact-section mb-4">
     <div class="container">
-        <h2 class="font-weight-bold">
-            Search
-        </h2>
+        <div class="card border-0">
+            <div class="card-body">
+                <h2 class="font-weight-bold text-center">
+                    Search By
+                </h2>
+                <center>
+                    <div class="row w-50">
+                        <div class="col">
+                            <a href="#!">
+                                <i class="fas fa-user-md h1 text-primary"></i><br />
+                                Doctor
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#!">
+                                <i class="fas fa-hospital-alt h1 text-secondary"></i> <br />
+                                Hospital
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#!">
+                                <i class="fas fa-city h1 text-secondary"></i> <br />
+                                City
+                            </a>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
         <div class="row">
             <div class="col">
                 <input type="text" class="form-control" placeholder="Doctors Name">
