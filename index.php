@@ -88,38 +88,38 @@
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="services services-1 color-1 d-block img" style="background-image: url(images/services-1.jpg);">
+								<div class="services services-1 color-1 d-block img" >
 									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-paragliding"></span></div>
 									<div class="media-body">
-										<h3 class="heading mb-3">Activities</h3>
-										<p>Some random text describing about the features and the services you offer</p>
+										<h3 class="heading mb-3">Explore</h3>
+										<p>Find and research top hospitals & destinations</p>
 									</div>
 								</div>      
 							</div>
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="services services-1 color-2 d-block img" style="background-image: url(images/services-2.jpg);">
+								<div class="services services-1 color-2 d-block img" >
 									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
 									<div class="media-body">
-										<h3 class="heading mb-3">Travel Arrangements</h3>
-										<p>Some random text describing about the features and the services you offer</p>
+										<h3 class="heading mb-3">Doctor Appointment</h3>
+										<p>Request a quote directly through our website</p>
 									</div>
 								</div>    
 							</div>
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="services services-1 color-3 d-block img" style="background-image: url(images/services-3.jpg);">
+								<div class="services services-1 color-3 d-block img" >
 									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-tour-guide"></span></div>
 									<div class="media-body">
-										<h3 class="heading mb-3">Private Guide</h3>
-										<p>Some random text describing about the features and the services you offer</p>
+										<h3 class="heading mb-3">Match</h3>
+										<p>Based on your criteria, we recommend the best hospitals or providers</p>
 									</div>
 								</div>      
 							</div>
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="services services-1 color-4 d-block img" style="background-image: url(images/services-4.jpg);">
+								<div class="services services-1 color-4 d-block img" >
 									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-map"></span></div>
 									<div class="media-body">
-										<h3 class="heading mb-3">Location Manager</h3>
-										<p>Some random text describing about the features and the services you offer</p>
+										<h3 class="heading mb-3">Arrange</h3>
+										<p>The hospital/provider will contact you directly to coordinate your treatment</p>
 									</div>
 								</div>      
 							</div>
@@ -302,7 +302,7 @@
 			</div>
 		</section>
 		
-		<section class="ftco-section ftco-about img"style="background-image: url(images/bg_4.jpg);">
+		<section class="ftco-section ftco-about img"style="background-image: url(images/healthcare4.jpg);">
 			<div class="overlay"></div>
 			<div class="container py-md-5">
 				<div class="row py-md-5">
@@ -317,14 +317,14 @@
 					<div class="col-md-12 about-intro">
 						<div class="row">
 							<div class="col-md-6 d-flex align-items-stretch">
-								<div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(images/about-1.jpg);">
+								<div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(images/911481.jpg);">
 								</div>
 							</div>
 							<div class="col-md-6 pl-md-5 py-5">
 								<div class="row justify-content-start pb-3">
 									<div class="col-md-12 heading-section ftco-animate">
 										<span class="subheading">About Us</span>
-										<h2 class="mb-4">Make Your Tour Memorable and Safe With Us</h2>
+										<h2 class="mb-4">Easy Access to Options Around the World</h2>
 										<p>
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 										</p>
@@ -342,10 +342,10 @@
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-12 text-center">
-						<div class="img"  style="background-image: url(images/bg_2.jpg);">
+						<div class="img"  style="background-image: url(images/imageedit_15_8619556885.jpg);">
 							<div class="overlay"></div>
-							<h2>We Are Company A Travel Agency</h2>
-							<p>We can manage your dream building A small river named Duden flows by their place</p>
+							<h2>We Are Company A Medical Travel Agency</h2>
+							<p>We'll Help You Map Out Your Medical Tourism Journey</p>
 							<p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Travel Now</a></p>
 						</div>
 					</div>
