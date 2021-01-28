@@ -87,14 +87,14 @@
                     <div class="row w-50">
                         <div class="col">
                             <a href="#!">
-                                <i class="fas fa-train h1 text-primary"></i><br />
-                                Rail Tickets
+                                <i class="fas fa-plane-departure h1 text-primary"></i> <br />
+                                Flight Tickets
                             </a>
                         </div>
                         <div class="col">
                             <a href="#!">
-                                <i class="fas fa-plane-departure h1 text-secondary"></i> <br />
-                                Flight Tickets
+                                <i class="fas fa-train h1 text-secondary"></i><br />
+                                Rail Tickets
                             </a>
                         </div>
                         <div class="col">
@@ -105,6 +105,174 @@
                         </div>
                     </div>
                 </center>
+
+                <section class="mt-2">
+                    <div class="row mt-2 mb-2">
+                        <div class="col">
+                            <h6>From</h6>
+                            <select name="state" id="state" class="form-control">
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chandigarh">Chandigarh</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                <option value="Daman and Diu">Daman and Diu</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Puducherry">Puducherry</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <h6>To</h6>
+                            <select name="state" id="state" class="form-control">
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chandigarh">Chandigarh</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                <option value="Daman and Diu">Daman and Diu</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Puducherry">Puducherry</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="10%" scope="col">Airlines</th>
+                                <th scope="col">Take Off Time</th>
+                                <th scope="col">Landing Time</th>
+                                <th scope="col">Class</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/thmbnail.jpg" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
             </div>
         </div>
     </div>
