@@ -107,6 +107,18 @@
                 </center>
 
                 <section class="mt-2">
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-primary btn-block">
+                                Domestic
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-primary btn-block">
+                                International
+                            </button>
+                        </div>
+                    </div>
                     <div class="row mt-2 mb-2">
                         <div class="col">
                             <h6>From</h6>
