@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/2915bda088.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   <style>
     .avatar {
         vertical-align: middle;
@@ -31,6 +33,8 @@
         border-radius: 50%;
     }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 <body>
  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -69,7 +73,7 @@
       <div class="col-md-9 ftco-animate pb-5 text-center">
        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Travel <i class="fa fa-chevron-right"></i></span></p>
        <h1 class="mb-0 bread">
-        Travel Tickets Airways
+        Travel Tickets Cabs
        </h1>
      </div>
    </div>
@@ -81,13 +85,13 @@
         <div class="card border-0">
             <div class="card-body">
                 <h2 class="font-weight-bold text-center">
-                    Travel Tickets Airways
+                    Travel Tickets
                 </h2>
                 <center>
                     <div class="row w-50">
                         <div class="col">
                             <a href="travel.php">
-                                <i class="fas fa-plane-departure h1 text-primary"></i> <br />
+                                <i class="fas fa-plane-departure h1 text-secondary"></i> <br />
                                 Flight Tickets
                             </a>
                         </div>
@@ -99,7 +103,7 @@
                         </div>
                         <div class="col">
                             <a href="travelcab.php">
-                                <i class="fas fa-taxi h1 text-secondary"></i> <br />
+                                <i class="fas fa-taxi h1 text-primary"></i> <br />
                                 Book Cab
                             </a>
                         </div>
@@ -107,184 +111,191 @@
                 </center>
 
                 <section class="mt-2">
-                    <div class="row">
-                        <div class="col">
-                            <button class="btn btn-primary btn-block">
-                                Domestic
-                            </button>
-                        </div>
-                        <div class="col">
-                            <button class="btn btn-outline-primary btn-block">
-                                International
-                            </button>
-                        </div>
-                    </div>
+                    
                     <div class="row mt-2 mb-2">
                         <div class="col">
-                            <h6>From</h6>
-                            <select name="state" id="state" class="form-control">
-                                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                <option value="Assam">Assam</option>
-                                <option value="Bihar">Bihar</option>
-                                <option value="Chandigarh">Chandigarh</option>
-                                <option value="Chhattisgarh">Chhattisgarh</option>
-                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                                <option value="Daman and Diu">Daman and Diu</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Lakshadweep">Lakshadweep</option>
-                                <option value="Puducherry">Puducherry</option>
-                                <option value="Goa">Goa</option>
-                                <option value="Gujarat">Gujarat</option>
-                                <option value="Haryana">Haryana</option>
-                                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                <option value="Jharkhand">Jharkhand</option>
-                                <option value="Karnataka">Karnataka</option>
-                                <option value="Kerala">Kerala</option>
-                                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                <option value="Maharashtra">Maharashtra</option>
-                                <option value="Manipur">Manipur</option>
-                                <option value="Meghalaya">Meghalaya</option>
-                                <option value="Mizoram">Mizoram</option>
-                                <option value="Nagaland">Nagaland</option>
-                                <option value="Odisha">Odisha</option>
-                                <option value="Punjab">Punjab</option>
-                                <option value="Rajasthan">Rajasthan</option>
-                                <option value="Sikkim">Sikkim</option>
-                                <option value="Tamil Nadu">Tamil Nadu</option>
-                                <option value="Telangana">Telangana</option>
-                                <option value="Tripura">Tripura</option>
-                                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                <option value="Uttarakhand">Uttarakhand</option>
-                                <option value="West Bengal">West Bengal</option>
-                            </select>
-                        </div>
-                        <div class="col">
-                            <h6>To</h6>
-                            <select name="state" id="state" class="form-control">
-                                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                <option value="Assam">Assam</option>
-                                <option value="Bihar">Bihar</option>
-                                <option value="Chandigarh">Chandigarh</option>
-                                <option value="Chhattisgarh">Chhattisgarh</option>
-                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                                <option value="Daman and Diu">Daman and Diu</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Lakshadweep">Lakshadweep</option>
-                                <option value="Puducherry">Puducherry</option>
-                                <option value="Goa">Goa</option>
-                                <option value="Gujarat">Gujarat</option>
-                                <option value="Haryana">Haryana</option>
-                                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                <option value="Jharkhand">Jharkhand</option>
-                                <option value="Karnataka">Karnataka</option>
-                                <option value="Kerala">Kerala</option>
-                                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                <option value="Maharashtra">Maharashtra</option>
-                                <option value="Manipur">Manipur</option>
-                                <option value="Meghalaya">Meghalaya</option>
-                                <option value="Mizoram">Mizoram</option>
-                                <option value="Nagaland">Nagaland</option>
-                                <option value="Odisha">Odisha</option>
-                                <option value="Punjab">Punjab</option>
-                                <option value="Rajasthan">Rajasthan</option>
-                                <option value="Sikkim">Sikkim</option>
-                                <option value="Tamil Nadu">Tamil Nadu</option>
-                                <option value="Telangana">Telangana</option>
-                                <option value="Tripura">Tripura</option>
-                                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                <option value="Uttarakhand">Uttarakhand</option>
-                                <option value="West Bengal">West Bengal</option>
-                            </select>
+                            <input value="" placeholder="Location" class="form-control" />
                         </div>
                     </div>
                     <br />
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Seat Availiblity</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="splide">
+                                    <div class="splide__track">
+                                        <ul class="splide__list">
+                                            <li class="splide__slide mr-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-success">Second Sitting (25)</h5>
+                                                        <strong>AVAILABLE-40</strong>
+                                                        <button class="btn btn-primary btn-sm btn-block">Request to Book</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide mr-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-success">Second Sitting (25)</h5>
+                                                        <strong>AVAILABLE-40</strong>
+                                                        <button class="btn btn-primary btn-sm btn-block">Request to Book</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide mr-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-success">Second Sitting (25)</h5>
+                                                        <strong>AVAILABLE-40</strong>
+                                                        <button class="btn btn-primary btn-sm btn-block">Request to Book</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide mr-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-success">Second Sitting (25)</h5>
+                                                        <strong>AVAILABLE-40</strong>
+                                                        <button class="btn btn-primary btn-sm btn-block">Request to Book</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide mr-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-success">Second Sitting (25)</h5>
+                                                        <strong>AVAILABLE-40</strong>
+                                                        <button class="btn btn-primary btn-sm btn-block">Request to Book</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide mr-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-success">Second Sitting (25)</h5>
+                                                        <strong>AVAILABLE-40</strong>
+                                                        <button class="btn btn-primary btn-sm btn-block">Request to Book</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide mr-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-success">Second Sitting (25)</h5>
+                                                        <strong>AVAILABLE-40</strong>
+                                                        <button class="btn btn-primary btn-sm btn-block">Request to Book</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <table class="table">
                         <thead>
                             <tr>
-                                <th width="10%" scope="col">Airlines</th>
-                                <th scope="col">Take Off Time</th>
-                                <th scope="col">Landing Time</th>
-                                <th scope="col">Class</th>
+                                <th width="18%" scope="col">Service Provider</th>
+                                <th scope="col">Vehicle</th>
+                                <th scope="col">Seat</th>
                                 <th scope="col">Price</th>
                             </tr>
                         </thead>
                         <tbody>
+
                             <tr>
                                 <td>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
+                                    <img src="https://seekvectorlogo.com/wp-content/uploads/2018/05/ola-cabs-vector-logo.png" style="width: 80%;" />
                                 </td>
                                 <td>
-                                    Rs. 19,000/- 
+                                    Sedan
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td class="text-center">
+                                    Rs. 389 <br />
+                                    <button class="btn btn-block btn-danger">
+                                        Continue
+                                    </button>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="https://seekvectorlogo.com/wp-content/uploads/2018/05/ola-cabs-vector-logo.png" style="width: 80%;" />
+                                </td>
+                                <td>
+                                    Sedan
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td class="text-center">
+                                    Rs. 389 <br />
+                                    <button class="btn btn-block btn-danger">
+                                        Continue
+                                    </button>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <img src="https://seekvectorlogo.com/wp-content/uploads/2018/05/ola-cabs-vector-logo.png" style="width: 80%;" />
+                                </td>
+                                <td>
+                                    Sedan
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td class="text-center">
+                                    Rs. 389 <br />
+                                    <button class="btn btn-block btn-danger">
+                                        Continue
+                                    </button>
                                 </td>
                             </tr>
 
                             <tr>
                                 <td>
-                                    <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/thmbnail.jpg" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
+                                    <img src="https://seekvectorlogo.com/wp-content/uploads/2018/05/ola-cabs-vector-logo.png" style="width: 80%;" />
                                 </td>
                                 <td>
-                                    Rs. 19,000/- 
+                                    Sedan
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td class="text-center">
+                                    Rs. 389 <br />
+                                    <button class="btn btn-block btn-danger">
+                                        Continue
+                                    </button>
                                 </td>
                             </tr>
-
-                            <tr>
-                                <td>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    Rs. 19,000/- 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    Rs. 19,000/- 
-                                </td>
-                            </tr>
+                           
                         </tbody>
                     </table>
                 </section>
+
+                
 
 
             </div>
@@ -376,7 +387,12 @@
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
+<script>
+	new Splide( '.splide', {
+        perPage: 3,
+        rewind : true
+    } ).mount();
+</script>
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
 <script src="js/popper.min.js"></script>
