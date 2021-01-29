@@ -33,7 +33,7 @@
   </style>
 </head>
 <body>
- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
    <div class="container">
      <a class="navbar-brand" href="index.html"><span>Travel Agency</span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +45,8 @@
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="doctors.php" class="nav-link">Doctor Appointment</a></li>
             <li class="nav-item active"><a href="travel.php" class="nav-link">Travel Tickets</a></li>
-            <li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
-            <li class="nav-item"><a href="#!" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="hotelbook.php" class="nav-link">Hotel</a></li>
+            <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
             <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
             <li class="nav-item"><a href="#!" class="nav-link">
             <a href="#!" class="btn btn-outline-primary" style="
@@ -59,30 +59,19 @@
         </ul>
      </div>
    </div>
- </nav>
+</nav>
  <!-- END nav -->
  
- <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/medic.jpg');">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
-      <div class="col-md-9 ftco-animate pb-5 text-center">
-       <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Travel <i class="fa fa-chevron-right"></i></span></p>
-       <h1 class="mb-0 bread">
-        Travel Tickets Airways
-       </h1>
-     </div>
-   </div>
- </div>
-</section>
 
-<section class="ftco-section ftco-no-pb contact-section mb-4">
+<section style="margin-top: 40px;"  class="ftco-section ftco-no-pb contact-section mb-4">
     <div class="container">
         <div class="card border-0">
             <div class="card-body">
+                <br />
                 <h2 class="font-weight-bold text-center">
                     Travel Tickets Airways
                 </h2>
+                <br />
                 <center>
                     <div class="row w-50">
                         <div class="col">

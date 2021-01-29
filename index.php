@@ -30,8 +30,8 @@
 					<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="doctors.php" class="nav-link">Doctor Appointment</a></li>
 					<li class="nav-item"><a href="travel.php" class="nav-link">Travel Tickets</a></li>
-					<li class="nav-item"><a href="#!" class="nav-link">Hotel</a></li>
-					<li class="nav-item"><a href="#!" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="hotelbook.php" class="nav-link">Hotel</a></li>
+					<li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
 					<li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
 					<li class="nav-item"><a href="#!" class="nav-link">
 					<a href="#!" class="btn btn-outline-primary" style="
