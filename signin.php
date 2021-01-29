@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/2915bda088.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   <style>
     .avatar {
         vertical-align: middle;
@@ -31,10 +33,12 @@
         border-radius: 50%;
     }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 <body>
- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
-   <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
+    <div class="container">
      <a class="navbar-brand" href="index.html"><span>Travel Agency</span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
        <span class="oi oi-menu"></span> Menu
@@ -43,11 +47,11 @@
      <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-            <li class="nav-item active"><a href="doctors.php" class="nav-link">Doctor Appointment</a></li>
+            <li class="nav-item"><a href="doctors.php" class="nav-link">Doctor Appointment</a></li>
             <li class="nav-item"><a href="travel.php" class="nav-link">Travel Tickets</a></li>
             <li class="nav-item"><a href="hotelbook.php" class="nav-link">Hotel</a></li>
             <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+            <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
             <li class="nav-item"><a href="#!" class="nav-link">
             <a href="signin.php" class="btn btn-outline-primary" style="
                 margin-top: -6vh;
@@ -61,110 +65,68 @@
    </div>
  </nav>
  <!-- END nav -->
+ 
+ 
 
 <section style="margin-top: 40px;" class="ftco-section ftco-no-pb contact-section mb-4">
-    <div class="container">
+    <div class="container w-50">
         <div class="card border-0">
             <div class="card-body">
                 <br />
-                <h2 class="font-weight-bold text-center">
-                   Doctor Appointment Search By
-                </h2>
-                <br />
-                <center>
-                    <div class="row w-50">
-                        <div class="col">
-                            <a href="#!">
-                                <i class="fas fa-user-md h1 text-primary"></i><br />
-                                Doctor
-                            </a>
+                <section class="mt-2">
+                    <section>
+                        <div>
+                            <div>
+                            <div class="card card-body shadow">
+                                <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i>Sign In</h1>
+                                <form action="/users/login" method="POST">
+                                <div class="form-group">
+                                    <!-- <label for="admission">Admission</label> -->
+                                    <span class="h5 text-primary">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <input
+                                    type="admission"
+                                    id="email"
+                                    name="email"
+                                    pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" 
+                                    class="form-control"
+                                    placeholder="example@example.com"
+                                    required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <span class="h5 text-primary">
+                                        <i class="fas fa-unlock"></i>
+                                    </span>
+                                    <input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    class="form-control"
+                                    placeholder="Enter Password"
+                                    required
+                                    />
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                </form>
+                                <p class="lead mt-4">
+                                No Account? <a href="register.php">Register</a>
+                                </p>
+                            </div>
+                            </div>
                         </div>
-                        <div class="col">
-                            <a href="#!">
-                                <i class="fas fa-hospital-alt h1 text-secondary"></i> <br />
-                                Hospital
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="#!">
-                                <i class="fas fa-city h1 text-secondary"></i> <br />
-                                City
-                            </a>
-                        </div>
-                    </div>
-                </center>
+                    </section>
+                </section>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Doctors Name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Speciality">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Place">
-            </div>
-        </div>
-        <center>
-            <button class="btn btn-primary float-right mt-2 mb-4">Search</button>
-        </center>
     </div>
 </section>
 
+
 <section style="padding-top: 8vh;" class="mt-4 mb-4">
     <div class="container">
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
-
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
-
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
-
-        <div class="card mt-2">
-            <div class="card-body">
-                <span class="float-right">
-                   (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                </span>
-                <img src="https://www.graphicsprings.com/filestorage/stencils/860fd685a429f4b8aca1357d07297d79.png" alt="Avatar" class="avatar">
-                <h5 class="card-title">Hospital Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-primary float-right">View More</a>
-            </div>
-        </div>
+        
     </div>
 </section>
 
@@ -246,7 +208,12 @@
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
+<script>
+	new Splide( '.splide', {
+        perPage: 3,
+        rewind : true
+    } ).mount();
+</script>
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
 <script src="js/popper.min.js"></script>

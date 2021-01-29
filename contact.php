@@ -53,7 +53,7 @@
             <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
             <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
             <li class="nav-item"><a href="#!" class="nav-link">
-            <a href="#!" class="btn btn-outline-primary" style="
+            <a href="signin.php" class="btn btn-outline-primary" style="
                 margin-top: -6vh;
                 color: white;
                 border-color: #f15d30;
