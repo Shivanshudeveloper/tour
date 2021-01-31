@@ -113,7 +113,7 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <button class="btn btn-primary btn-block">
+                            <button style="background-color: black; color: white;" class="btn btn-block">
                                 Request Now
                             </button>
                         </div>
@@ -123,6 +123,11 @@
                             </button>
                         </div>
                     </div>
+                    <center>
+                        <button type="button" class="btn btn-lg btn-primary w-25 mt-2 mb-2">
+                            Search
+                        </button>
+                    </center>
                     <br />
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

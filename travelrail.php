@@ -124,17 +124,20 @@
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label text-dark" for="exampleCheck1">Flexible With Date </label>
-
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label text-dark" for="exampleCheck1">Train With Available Birth </label>
-
                             </div>
                         </div>
                     </div>
+                    <center>
+                        <button type="button" class="btn btn-lg btn-primary w-25 mt-2 mb-2">
+                            Search
+                        </button>
+                    </center>
                     <br />
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

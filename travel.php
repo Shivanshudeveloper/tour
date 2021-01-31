@@ -144,6 +144,12 @@
                             </div>
                         </div>
                     </div>
+
+                    <center>
+                        <button type="button" class="btn btn-lg btn-primary w-25 mt-2 mb-2">
+                            Search
+                        </button>
+                    </center>
                     
                     <br />
                     <table class="table">
