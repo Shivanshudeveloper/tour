@@ -66,8 +66,8 @@
  </nav>
  <!-- END nav -->
  
-
-<section style="margin-top: 40px;" class="ftco-section ftco-no-pb contact-section mb-4">
+<img style="width: 100%; height: 72vh;" src="https://wallpaperaccess.com/full/781959.jpg" alt="Airplane" />
+<section class="ftco-section ftco-no-pb contact-section mb-4">
     <div class="container">
         <div class="card border-0">
             <div class="card-body">
@@ -103,7 +103,24 @@
                     
                     <div class="row mt-2 mb-2">
                         <div class="col">
-                            <input value="" placeholder="Location" class="form-control" />
+                            <h6>From</h6>
+                            <?php include './inc/location1.inc.php' ?>
+                        </div>
+                        <div class="col">
+                            <h6>To</h6>
+                            <?php include './inc/location2.inc.php' ?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-primary btn-block">
+                                Request Now
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-secondary btn-block">
+                                Schedule for Later
+                            </button>
                         </div>
                     </div>
                     <br />

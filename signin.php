@@ -83,7 +83,7 @@
                                 <div class="form-group">
                                     <!-- <label for="admission">Admission</label> -->
                                     <span class="h5 text-primary">
-                                        <i class="fas fa-envelope"></i>
+                                        <i class="fas fa-envelope"></i><span class="text-dark ml-2">Enter Your Email Address*</span>
                                     </span>
                                     <input
                                     type="admission"
@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="form-group">
                                     <span class="h5 text-primary">
-                                        <i class="fas fa-unlock"></i>
+                                        <i class="fas fa-unlock"></i><span class="text-dark ml-2">Enter Your Password*</span>
                                     </span>
                                     <input
                                     type="password"
@@ -111,7 +111,7 @@
                                 <button type="submit" class="btn btn-primary btn-block">Login</button>
                                 </form>
                                 <p class="lead mt-4">
-                                No Account? <a href="register.php">Register</a>
+                                Don’t Have An Account? Sign Up <a href="register.php">Register</a>
                                 </p>
                             </div>
                             </div>

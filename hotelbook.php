@@ -78,9 +78,26 @@
                 </h2>
                 <br />
                 <section class="mt-2">
-                    <input type="text" placeholder="Search Hotel / Places" class="form-control" />
+                    <div class="row">
+                        <div class="col">
+                            <label class="text-dark">Where To</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                        <div class="col">
+                            <label class="text-dark">Check In Date</label>
+                            <input type="date" class="form-control" />
+                        </div>
+                        <div class="col">
+                            <label class="text-dark">Check Out Date</label>
+                            <input type="date" class="form-control" />
+                        </div>
+                        <div class="col">
+                            <label class="text-dark">Number of guest</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                    </div>
                     <center>
-                        <button type="button" class="btn btn-primary w-25 mt-2 mb-2">
+                        <button type="button" class="btn btn-lg btn-primary w-25 mt-2 mb-2">
                             Search
                         </button>
                     </center>

@@ -30,6 +30,7 @@
         height: 50px;
         border-radius: 50%;
     }
+    
   </style>
 </head>
 <body>
@@ -62,8 +63,8 @@
 </nav>
  <!-- END nav -->
  
-
-<section style="margin-top: 40px;"  class="ftco-section ftco-no-pb contact-section mb-4">
+<img style="width: 100%; height: 72vh;" src="https://i.pinimg.com/originals/93/83/ba/9383bafbd53ae314fbd6b32bab26b640.jpg" alt="Airplane" />
+<section class="ftco-section ftco-no-pb contact-section mb-4">
     <div class="container">
         <div class="card border-0">
             <div class="card-body">
@@ -111,87 +112,39 @@
                     <div class="row mt-2 mb-2">
                         <div class="col">
                             <h6>From</h6>
-                            <select name="state" id="state" class="form-control">
-                                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                <option value="Assam">Assam</option>
-                                <option value="Bihar">Bihar</option>
-                                <option value="Chandigarh">Chandigarh</option>
-                                <option value="Chhattisgarh">Chhattisgarh</option>
-                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                                <option value="Daman and Diu">Daman and Diu</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Lakshadweep">Lakshadweep</option>
-                                <option value="Puducherry">Puducherry</option>
-                                <option value="Goa">Goa</option>
-                                <option value="Gujarat">Gujarat</option>
-                                <option value="Haryana">Haryana</option>
-                                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                <option value="Jharkhand">Jharkhand</option>
-                                <option value="Karnataka">Karnataka</option>
-                                <option value="Kerala">Kerala</option>
-                                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                <option value="Maharashtra">Maharashtra</option>
-                                <option value="Manipur">Manipur</option>
-                                <option value="Meghalaya">Meghalaya</option>
-                                <option value="Mizoram">Mizoram</option>
-                                <option value="Nagaland">Nagaland</option>
-                                <option value="Odisha">Odisha</option>
-                                <option value="Punjab">Punjab</option>
-                                <option value="Rajasthan">Rajasthan</option>
-                                <option value="Sikkim">Sikkim</option>
-                                <option value="Tamil Nadu">Tamil Nadu</option>
-                                <option value="Telangana">Telangana</option>
-                                <option value="Tripura">Tripura</option>
-                                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                <option value="Uttarakhand">Uttarakhand</option>
-                                <option value="West Bengal">West Bengal</option>
-                            </select>
+                            <?php include './inc/location1.inc.php' ?>
                         </div>
                         <div class="col">
                             <h6>To</h6>
-                            <select name="state" id="state" class="form-control">
-                                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                <option value="Assam">Assam</option>
-                                <option value="Bihar">Bihar</option>
-                                <option value="Chandigarh">Chandigarh</option>
-                                <option value="Chhattisgarh">Chhattisgarh</option>
-                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                                <option value="Daman and Diu">Daman and Diu</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Lakshadweep">Lakshadweep</option>
-                                <option value="Puducherry">Puducherry</option>
-                                <option value="Goa">Goa</option>
-                                <option value="Gujarat">Gujarat</option>
-                                <option value="Haryana">Haryana</option>
-                                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                <option value="Jharkhand">Jharkhand</option>
-                                <option value="Karnataka">Karnataka</option>
-                                <option value="Kerala">Kerala</option>
-                                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                <option value="Maharashtra">Maharashtra</option>
-                                <option value="Manipur">Manipur</option>
-                                <option value="Meghalaya">Meghalaya</option>
-                                <option value="Mizoram">Mizoram</option>
-                                <option value="Nagaland">Nagaland</option>
-                                <option value="Odisha">Odisha</option>
-                                <option value="Punjab">Punjab</option>
-                                <option value="Rajasthan">Rajasthan</option>
-                                <option value="Sikkim">Sikkim</option>
-                                <option value="Tamil Nadu">Tamil Nadu</option>
-                                <option value="Telangana">Telangana</option>
-                                <option value="Tripura">Tripura</option>
-                                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                <option value="Uttarakhand">Uttarakhand</option>
-                                <option value="West Bengal">West Bengal</option>
-                            </select>
+                            <?php include './inc/location2.inc.php' ?>
                         </div>
                     </div>
+                    <div class="row mt-2 mb-2">
+                        <div class="col">
+                            <div class="card border-0">
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Departure From</h6>
+                                <h5 class="card-title">New Delhi</h5>
+                                <h6 class="mb-2">DEL</h6>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <center style="margin-top: 40px;">
+                            <i class="fas h1 text-danger fa-arrows-alt-h"></i>
+                            </center>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0">
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Going To</h6>
+                                <h5 class="card-title">Mumbai</h5>
+                                <h6 class="mb-2">BDM</h6>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <br />
                     <table class="table">
                         <thead>
