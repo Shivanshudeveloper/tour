@@ -511,7 +511,7 @@
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
 
-<script src="src/js/main.js"></script>
 <script src="src/js/firebase-config.js"></script>
+<script src="src/js/main.js"></script>
 </body>
 </html>
