@@ -79,6 +79,21 @@
                             <div>
                             <div class="card card-body shadow">
                                 <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i>Sign In</h1>
+                                <?php 
+                                    if (isset($_GET['u'])) {
+                                        if (isset($_GET['u']) == 's') {
+                                            echo '
+                                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                                    <strong>User Successfully Created!</strong>
+                                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                            ';
+                                        }
+                                    }
+                                
+                                ?>
                                 <form action="/users/login" method="POST">
                                 <div class="form-group">
                                     <!-- <label for="admission">Admission</label> -->

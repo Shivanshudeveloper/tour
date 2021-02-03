@@ -1,13 +1,23 @@
 $( document ).ready(function() {
 // For Corporate Sector
 $("#registerBtn").click(() => {
-    var email = $("#email").val()
+    var email = $("#email").val(),
+        name = $("#name").val(),
+        country = $("#country").val(),
+        address = $("#address").val(),
         pwd = $("#password").val();
         // Checking for empty field
         firebase.auth().createUserWithEmailAndPassword(email, pwd)
         .then(() => {
-            console.log("User Created")
             var user = firebase.auth().currentUser;
+            $.post("./src/php/main.php", {
+                email,
+                name,
+                country,
+                address,
+                uid: user.uid,
+                userRegister: true
+            })
             user.sendEmailVerification().then(function() {
                 swal("Registered",`A verification mail is send to ${email}`, "success", {
                     button: "Okay",

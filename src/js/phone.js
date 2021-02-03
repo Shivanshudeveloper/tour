@@ -7,6 +7,7 @@
     var uiConfig = {
         callbacks: {
             signInSuccessWithAuthResult: function (authResult, redirectUrl) {
+                console.log(authResult);
                 // User successfully signed in.
                 // Return type determines whether we continue the redirect automatically
                 // or whether we leave that to developer to handle.
@@ -20,7 +21,7 @@
         },
         // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
         signInFlow: 'popup',
-        signInSuccessUrl: 'index.php',
+        signInSuccessUrl: 'check.php',
         signInOptions: [
             {
                 provider: firebase.auth.PhoneAuthProvider.PROVIDER_ID,
@@ -30,7 +31,7 @@
         
         
         // Terms of service url.
-        tosUrl: 'main.html',
+        tosUrl: 'check.php',
         // Privacy policy url.
         privacyPolicyUrl: '<your-privacy-policy-url>'
     };
