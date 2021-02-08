@@ -73,13 +73,13 @@
                     <div class="row w-50">
                         <div class="col">
                             <a href="doctors.php">
-                                <i class="fas fa-user-md h1 text-primary"></i><br />
+                                <i class="fas fa-user-md h1 text-secondary"></i><br />
                                 Doctor
                             </a>
                         </div>
                         <div class="col">
                             <a href="hospital.php">
-                                <i class="fas fa-hospital-alt h1 text-secondary"></i> <br />
+                                <i class="fas fa-hospital-alt h1 text-primary"></i> <br />
                                 Hospital
                             </a>
                         </div>
@@ -93,7 +93,7 @@
                 </center>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col">
                 <input type="text" class="form-control" placeholder="Doctors Name">
             </div>
@@ -106,7 +106,7 @@
         </div>
         <center>
             <button class="btn btn-primary float-right mt-2 mb-4">Search</button>
-        </center>
+        </center> -->
     </div>
 </section>
 

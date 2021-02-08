@@ -72,46 +72,22 @@
                 <br />
                 <section class="mt-2">
                   <section class="ftco-section ftco-no-pb contact-section mb-4">
-                      <div class="container">
-                        <div class="row d-flex contact-info">
-                          <div class="col-md-3 d-flex">
-                          <div class="align-self-stretch box p-4 text-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="fa fa-map-marker"></span>
+                      <div className="container">
+                        <div className="row">
+                          <div className="col">
+                            <div class="card">
+                              <div class="card-body">
+                                <h2 class="card-title">Corporate Mailing Address</h2>
+                                <h6 class="card-subtitle mb-2 text-muted">2200 Mission College Blvd. </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">Santa Clara, CA 95054-1549  </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">USA</h6>
+                                <h6 class="card-subtitle mb-2 text-muted">US(408) 765-8080 A</h6>
+                              </div>
+                            </div>
                           </div>
-                          <h3 class="mb-2">Address</h3>
-                          <p class="text-dark">My Address is this</p>
+                          <br />
                         </div>
                       </div>
-                      <div class="col-md-3 d-flex">
-                        <div class="align-self-stretch box p-4 text-center">
-                          <div class="icon d-flex align-items-center justify-content-center">
-                          <span class="fa fa-phone"></span>
-                        </div>
-                        <h3 class="mb-2">Contact Number</h3>
-                        <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
-                      </div>
-                    </div>
-                    <div class="col-md-3 d-flex">
-                      <div class="align-self-stretch box p-4 text-center">
-                        <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-paper-plane"></span>
-                      </div>
-                      <h3 class="mb-2">Email Address</h3>
-                      <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                    </div>
-                    </div>
-                    <div class="col-md-3 d-flex">
-                    <div class="align-self-stretch box p-4 text-center">
-                      <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-globe"></span>
-                    </div>
-                    <h3 class="mb-2">Website</h3>
-                    <p><a href="#">yoursite.com</a></p>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
                   </section>
                 </section>
             </div>

@@ -40,6 +40,8 @@
   </style>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="src/style/style.css">
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
@@ -91,7 +93,11 @@
                         </div>
                         <div class="col">
                             <label class="text-dark">Number of guest</label>
-                            <input type="text" class="form-control" />
+                            <div class="qty mt-2">
+                                <span class="minus bg-dark">-</span>
+                                <input type="number" class="count" name="qty" value="1">
+                                <span class="plus bg-dark">+</span>
+                            </div>
                         </div>
                     </div>
                     <center>

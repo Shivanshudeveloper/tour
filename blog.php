@@ -94,7 +94,7 @@
                             </div>
                           </div>
                           <h3 class="heading"><a href="#">Best Doctor</a></h3>
-                          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                          <p>A small river named Duden flows by their place and...</p>
                           <p><a href="#" class="btn btn-primary">Read more</a></p>
                         </div>
                       </div>
@@ -114,7 +114,7 @@
                         </div>
                       </div>
                       <h3 class="heading"><a href="#">Best Doctor</a></h3>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                      <p>A small river named Duden flows by their place and...</p>
                       <p><a href="#" class="btn btn-primary">Read more</a></p>
                     </div>
                     </div>
@@ -134,7 +134,7 @@
                       </div>
                     </div>
                     <h3 class="heading"><a href="#">Best Doctor</a></h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <p>A small river named Duden flows by their place and...</p>
                     <p><a href="#" class="btn btn-primary">Read more</a></p>
                     </div>
                     </div>
@@ -154,7 +154,7 @@
                       </div>
                     </div>
                     <h3 class="heading"><a href="#">Best Doctor</a></h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <p>A small river named Duden flows by their place and...</p>
                     <p><a href="#" class="btn btn-primary">Read more</a></p>
                     </div>
                     </div>
@@ -174,7 +174,7 @@
                       </div>
                     </div>
                     <h3 class="heading"><a href="#">Best Doctor</a></h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <p>A small river named Duden flows by their place and...</p>
                     <p><a href="#" class="btn btn-primary">Read more</a></p>
                     </div>
                     </div>
@@ -194,7 +194,7 @@
                       </div>
                     </div>
                     <h3 class="heading"><a href="#">Best Doctor</a></h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <p>A small river named Duden flows by their place and...</p>
                     <p><a href="#" class="btn btn-primary">Read more</a></p>
                     </div>
                     </div>
