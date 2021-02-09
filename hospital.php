@@ -62,51 +62,87 @@
 
 <section style="margin-top: 40px;" class="ftco-section ftco-no-pb contact-section mb-4">
     <div class="container">
-        <div class="card border-0">
-            <div class="card-body">
-                <br />
-                <h2 class="font-weight-bold text-center">
-                   Doctor Appointment Search By
-                </h2>
-                <br />
-                <center>
-                    <div class="row w-50">
-                        <div class="col">
-                            <a href="doctors.php">
-                                <i class="fas fa-user-md h1 text-secondary"></i><br />
-                                Doctor
-                            </a>
+        <div class="row mt-4">
+            <div style="margin-top: 2%;" class="col-md">
+                <div>
+                    <div class="card card-body shadow">
+                    <h2 class="font-weight-bold text-center">
+                        Hospital
+                    </h2>
+                    <center>
+                        <div class="row mt-2">
+                            <div class="col">
+                                <a href="doctors.php">
+                                    <i class="fas fa-user-md h1 text-secondary"></i><br />
+                                    Doctor
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="hospital.php">
+                                    <i class="fas fa-hospital-alt h1 text-primary"></i> <br />
+                                    Hospital
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#!">
+                                    <i class="fas fa-city h1 text-secondary"></i> <br />
+                                    City
+                                </a>
+                            </div>
                         </div>
-                        <div class="col">
-                            <a href="hospital.php">
-                                <i class="fas fa-hospital-alt h1 text-primary"></i> <br />
-                                Hospital
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="#!">
-                                <i class="fas fa-city h1 text-secondary"></i> <br />
-                                City
-                            </a>
-                        </div>
+                    </center>
+                    <form action="/users/login" method="POST">
+                        <input type="text" class="form-control mt-2" placeholder="Doctors Name">
+
+                        <select class="form-control mt-2" id="exampleFormControlSelect1">
+                            <option selected>Speciality</option>
+                            <option value="Allergy">Allergy</option>
+                            <option value="Bariatric Surgery/ obesity management">Bariatric Surgery/ obesity management</option>
+                            <option value="Cardiology">Cardiology</option>
+                            <option value="Cardiothoracic/ Cardiovascular Surgeries">Cardiothoracic/ Cardiovascular Surgeries</option>
+                            <option value="Chest & Pulmonary">Chest & Pulmonary</option>
+                            <option value="Cosmetic Surgery">Cosmetic Surgery</option>
+                            <option value="Dental Care/ dental surgery">Dental Care/ dental surgery</option>
+                            <option value="Dermatology">Dermatology</option>
+                            <option value="Diabetes & Endocrinology">Diabetes & Endocrinology</option>
+                            <option value="ENT, head & neck">ENT, head & neck</option>
+                            <option value="Gastroenterology">Gastroenterology</option>
+                            <option value="General Surgery">General Surgery</option>
+                            <option value="Geriatric Care">Geriatric Care</option>
+                            <option value="Haemetology">Haemetology</option>
+                            <option value="Infertility/ Reproductive machine">Infertility/ Reproductive machine</option>
+                            <option value="Liver / Hepatology">Liver / Hepatology</option>
+                            <option value="Mental Health & Behavioral Sciences">Mental Health & Behavioral Sciences</option>
+                            <option value="Neonatology">Neonatology</option>
+                            <option value="Nephrology">Nephrology</option>
+                            <option value="Neurology/ Neurosurgery/ Spinal">Neurology/ Neurosurgery/ Spinal</option>
+                            <option value="Obstetrics & Gynecology">Obstetrics & Gynecology</option>
+                            <option value="Oncology (Cancer)">Oncology (Cancer)</option>
+                            <option value="Oncology (Eye)">Oncology (Eye)</option>
+                            <option value="Orthopedics / Joint replacements (Bone/Joints)">Orthopedics / Joint replacements (Bone/Joints)</option>
+                            <option value="Pediatrics & Pediatric Surgery">Pediatrics & Pediatric Surgery</option>
+                            <option value="Physiotherapy & rehabilitation">Physiotherapy & rehabilitation</option>
+                            <option value="Plastic Surgery / Reconstructive surgery">Plastic Surgery / Reconstructive surgery</option>
+                            <option value="Urology">Urology</option>
+                            <option value="Vascular Surgery">Vascular Surgery</option>
+                            <option value="Sleep Medicine">Sleep Medicine</option>
+                        </select>
+
+                        <input type="text" class="form-control mt-2" placeholder="Doctors Name">
+                        
+                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
+                    </form>
                     </div>
-                </center>
+                </div>
+            </div>
+            <div class="col-md mt-4">
+                <section>
+                    <div>
+                        <img class="shadow rounded mt-4" style="width: 120%;" src="https://ak.picdn.net/shutterstock/videos/6958084/thumb/1.jpg" />
+                    </div>
+                </section>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Doctors Name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Speciality">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Place">
-            </div>
-        </div>
-        <center>
-            <button class="btn btn-primary float-right mt-2 mb-4">Search</button>
-        </center> -->
     </div>
 </section>
 
