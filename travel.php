@@ -60,95 +60,117 @@
    </div>
 </nav>
  <!-- END nav -->
- 
-<img style="width: 100%; height: 72vh;" src="https://i.pinimg.com/originals/93/83/ba/9383bafbd53ae314fbd6b32bab26b640.jpg" alt="Airplane" />
-<section class="ftco-section ftco-no-pb contact-section mb-4">
+    <section class="ftco-section ftco-no-pb contact-section mb-4 mt-4">
     <div class="container">
+        <div class="row mt-4">
+            <div style="margin-top: 2%;" class="col-md">
+                <div>
+                    <div class="card card-body shadow">
+                    <h2 class="font-weight-bold text-center">
+                        Flights
+                    </h2>
+                    <center>
+                        <div class="row mt-2">
+                            <div class="col">
+                                <a href="travel.php">
+                                    <i class="fas fa-plane-departure h1 text-primary"></i> <br />
+                                    Flight Tickets
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="travelrail.php">
+                                    <i class="fas fa-train h1 text-secondary"></i><br />
+                                    Rail Tickets
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="travelcab.php">
+                                    <i class="fas fa-taxi h1 text-secondary"></i> <br />
+                                    Book Cab
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                    <form action="/users/login" method="POST">
+                        
+                        <div class="row mt-4">
+                            <div class="col">
+                                <button class="btn btn-primary btn-block">
+                                    Domestic
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-primary btn-block">
+                                    International
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row mt-4 mb-2">
+                            <div class="col">
+                                <h6>From</h6>
+                                <?php include './inc/location1.inc.php' ?>
+                            </div>
+                            <div class="col">
+                                <h6>To</h6>
+                                <?php include './inc/location2.inc.php' ?>
+                            </div>
+                        </div>
+                        <div class="row mt-2 mb-2">
+                            <div class="col">
+                                <h6>Date</h6>
+                                <input type="date" class="form-control" name="date" id="">
+                            </div>
+                        </div>
+                        <div class="row mt-2 mb-2">
+                            <div class="col">
+                                <div class="card border-0">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Departure From</h6>
+                                    <h5 class="card-title">New Delhi</h5>
+                                    <h6 class="mb-2">DEL</h6>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <center style="margin-top: 40px;">
+                                <i class="fas h1 text-danger fa-arrows-alt-h"></i>
+                                </center>
+                            </div>
+                            <div class="col">
+                                <div class="card border-0">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Going To</h6>
+                                    <h5 class="card-title">Mumbai</h5>
+                                    <h6 class="mb-2">BDM</h6>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <br />
+                <section>
+                    <div>
+                        <img class="shadow rounded w-100 mt-2" src="https://i.pinimg.com/originals/93/83/ba/9383bafbd53ae314fbd6b32bab26b640.jpg" />
+                    </div>
+                    <div>
+                        <img class="shadow rounded w-100 mt-2" src="https://www.telegraph.co.uk/content/dam/Travel/2020/Aout/iStock-874388018.jpg" />
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+
         <div class="card border-0">
             <div class="card-body">
                 <br />
-                <h2 class="font-weight-bold text-center">
-                    Travel Tickets Airways
-                </h2>
-                <br />
-                <center>
-                    <div class="row w-50">
-                        <div class="col">
-                            <a href="travel.php">
-                                <i class="fas fa-plane-departure h1 text-primary"></i> <br />
-                                Flight Tickets
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="travelrail.php">
-                                <i class="fas fa-train h1 text-secondary"></i><br />
-                                Rail Tickets
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="travelcab.php">
-                                <i class="fas fa-taxi h1 text-secondary"></i> <br />
-                                Book Cab
-                            </a>
-                        </div>
-                    </div>
-                </center>
 
                 <section class="mt-2">
-                    <div class="row">
-                        <div class="col">
-                            <button class="btn btn-primary btn-block">
-                                Domestic
-                            </button>
-                        </div>
-                        <div class="col">
-                            <button class="btn btn-outline-primary btn-block">
-                                International
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row mt-2 mb-2">
-                        <div class="col">
-                            <h6>From</h6>
-                            <?php include './inc/location1.inc.php' ?>
-                        </div>
-                        <div class="col">
-                            <h6>To</h6>
-                            <?php include './inc/location2.inc.php' ?>
-                        </div>
-                    </div>
-                    <div class="row mt-2 mb-2">
-                        <div class="col">
-                            <div class="card border-0">
-                            <div class="card-body">
-                                <h6 class="card-subtitle mb-2 text-muted">Departure From</h6>
-                                <h5 class="card-title">New Delhi</h5>
-                                <h6 class="mb-2">DEL</h6>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <center style="margin-top: 40px;">
-                            <i class="fas h1 text-danger fa-arrows-alt-h"></i>
-                            </center>
-                        </div>
-                        <div class="col">
-                            <div class="card border-0">
-                            <div class="card-body">
-                                <h6 class="card-subtitle mb-2 text-muted">Going To</h6>
-                                <h5 class="card-title">Mumbai</h5>
-                                <h6 class="mb-2">BDM</h6>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <center>
-                        <button type="button" class="btn btn-lg btn-primary w-25 mt-2 mb-2">
-                            Search
-                        </button>
-                    </center>
-                    
                     <br />
                     <table class="table">
                         <thead>

@@ -101,10 +101,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md mt-4">
+            <div class="col-md mt-3">
                 <section>
                     <div>
-                        <img class="shadow rounded mt-4" style="width: 120%;" src="https://ak.picdn.net/shutterstock/videos/6958084/thumb/1.jpg" />
+                        <img class="shadow rounded" style="width: 120%;" src="https://ak.picdn.net/shutterstock/videos/6958084/thumb/1.jpg" />
                     </div>
                 </section>
             </div>

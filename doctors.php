@@ -155,7 +155,7 @@
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) {
                 echo '
-                    <div class="card mt-2">
+                    <div class="card mt-2 shadow">
                         <div class="card-body">
                             <span class="float-right">
                             (4.5/5) <i class="fas text-warning h5 fa-star"></i>
