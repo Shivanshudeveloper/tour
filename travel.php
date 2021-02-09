@@ -107,17 +107,17 @@
                         </div>
                         <div class="row mt-4 mb-2">
                             <div class="col">
-                                <h6>From</h6>
+                                <h6 class="text-dark">From</h6>
                                 <?php include './inc/location1.inc.php' ?>
                             </div>
                             <div class="col">
-                                <h6>To</h6>
+                                <h6 class="text-dark">To</h6>
                                 <?php include './inc/location2.inc.php' ?>
                             </div>
                         </div>
                         <div class="row mt-2 mb-2">
                             <div class="col">
-                                <h6>Date</h6>
+                                <h6 class="text-dark">Date</h6>
                                 <input type="date" class="form-control" name="date" id="">
                             </div>
                         </div>

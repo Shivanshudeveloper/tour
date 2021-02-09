@@ -63,81 +63,65 @@
    </div>
  </nav>
  <!-- END nav -->
- 
- 
-<img style="width: 100%; height: 72vh;" src="https://i.ytimg.com/vi/sS0VtTjllD0/maxresdefault.jpg" alt="Airplane" />
 <section class="ftco-section ftco-no-pb contact-section mb-4">
     <div class="container">
         <div class="card border-0">
             <div class="card-body">
-                <br />
-                <h2 class="font-weight-bold text-center">
-                    Travel Tickets
-                </h2>
-                <br />
-                <center>
-                    <div class="row w-50">
-                        <div class="col">
-                            <a href="travel.php">
-                                <i class="fas fa-plane-departure h1 text-secondary"></i> <br />
-                                Flight Tickets
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="travelrail.php">
-                                <i class="fas fa-train h1 text-primary"></i><br />
-                                Rail Tickets
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="travelcab.php">
-                                <i class="fas fa-taxi h1 text-secondary"></i> <br />
-                                Book Cab
-                            </a>
-                        </div>
-                    </div>
-                    
-                </center>
-
                 <section class="mt-2">
-                    
-                    <div class="row mt-2 mb-2">
-                        <div class="col">
-                            <h6>From</h6>
-                            <?php include './inc/location1.inc.php' ?>
+                <div class="row mt-4">
+                    <div style="margin-top: 2%;" class="col-md">
+                        <div>
+                            <div class="card card-body shadow">
+                                <h2 class="font-weight-bold text-center">
+                                    Rail Tickets
+                                </h2>
+                                <center>
+                                    <div class="row mt-2">
+                                    <div class="col">
+                                        <a href="travel.php">
+                                            <i class="fas fa-plane-departure h1 text-secondary"></i> <br />
+                                            Flight Tickets
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="travelrail.php">
+                                            <i class="fas fa-train h1 text-primary"></i><br />
+                                            Rail Tickets
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="travelcab.php">
+                                            <i class="fas fa-taxi h1 text-secondary"></i> <br />
+                                            Book Cab
+                                        </a>
+                                    </div>
+                                    </div>
+                                </center>
+                                <form action="/users/login" method="POST">
+                                    <br />
+                                    <h6 class="text-dark">From</h6>
+                                    <?php include './inc/location1.inc.php' ?>
+                                    <h6 class="text-dark">To</h6>
+                                    <?php include './inc/location2.inc.php' ?>
+                                    <h6 class="text-dark">Date</h6>
+                                    <input type="date" class="form-control" name="date" id="">
+                                    <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
+                                </form>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col">
-                            <h6>To</h6>
-                            <?php include './inc/location2.inc.php' ?>
+                        <div class="col-md mt-5">
+                            <section>
+                                <div>
+                                    <br />
+                                    <img class="shadow rounded w-100 mt-4" src="https://i.ytimg.com/vi/sS0VtTjllD0/maxresdefault.jpg" />
+                                </div>
+                            </section>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label text-dark" for="exampleCheck1">Divyaang Concession </label>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label text-dark" for="exampleCheck1">Flexible With Date </label>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label text-dark" for="exampleCheck1">Train With Available Birth </label>
-                            </div>
-                        </div>
-                    </div>
-                    <center>
-                        <button type="button" class="btn btn-lg btn-primary w-25 mt-2 mb-2">
-                            Search
-                        </button>
-                    </center>
-                    <br />
 
+                    <br />
+                    <br />
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
