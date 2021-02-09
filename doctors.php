@@ -128,7 +128,7 @@
                             <option value="Sleep Medicine">Sleep Medicine</option>
                         </select>
 
-                        <input type="text" class="form-control mt-2" placeholder="Doctors Name">
+                        <input type="text" class="form-control mt-2" placeholder="Place">
                         
                         <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
                     </form>

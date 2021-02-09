@@ -92,43 +92,9 @@
                         </div>
                     </center>
                     <form action="/users/login" method="POST">
-                        <input type="text" class="form-control mt-2" placeholder="Doctors Name">
+                        <input type="text" class="form-control mt-2" placeholder="Hospital Name">
 
-                        <select class="form-control mt-2" id="exampleFormControlSelect1">
-                            <option selected>Speciality</option>
-                            <option value="Allergy">Allergy</option>
-                            <option value="Bariatric Surgery/ obesity management">Bariatric Surgery/ obesity management</option>
-                            <option value="Cardiology">Cardiology</option>
-                            <option value="Cardiothoracic/ Cardiovascular Surgeries">Cardiothoracic/ Cardiovascular Surgeries</option>
-                            <option value="Chest & Pulmonary">Chest & Pulmonary</option>
-                            <option value="Cosmetic Surgery">Cosmetic Surgery</option>
-                            <option value="Dental Care/ dental surgery">Dental Care/ dental surgery</option>
-                            <option value="Dermatology">Dermatology</option>
-                            <option value="Diabetes & Endocrinology">Diabetes & Endocrinology</option>
-                            <option value="ENT, head & neck">ENT, head & neck</option>
-                            <option value="Gastroenterology">Gastroenterology</option>
-                            <option value="General Surgery">General Surgery</option>
-                            <option value="Geriatric Care">Geriatric Care</option>
-                            <option value="Haemetology">Haemetology</option>
-                            <option value="Infertility/ Reproductive machine">Infertility/ Reproductive machine</option>
-                            <option value="Liver / Hepatology">Liver / Hepatology</option>
-                            <option value="Mental Health & Behavioral Sciences">Mental Health & Behavioral Sciences</option>
-                            <option value="Neonatology">Neonatology</option>
-                            <option value="Nephrology">Nephrology</option>
-                            <option value="Neurology/ Neurosurgery/ Spinal">Neurology/ Neurosurgery/ Spinal</option>
-                            <option value="Obstetrics & Gynecology">Obstetrics & Gynecology</option>
-                            <option value="Oncology (Cancer)">Oncology (Cancer)</option>
-                            <option value="Oncology (Eye)">Oncology (Eye)</option>
-                            <option value="Orthopedics / Joint replacements (Bone/Joints)">Orthopedics / Joint replacements (Bone/Joints)</option>
-                            <option value="Pediatrics & Pediatric Surgery">Pediatrics & Pediatric Surgery</option>
-                            <option value="Physiotherapy & rehabilitation">Physiotherapy & rehabilitation</option>
-                            <option value="Plastic Surgery / Reconstructive surgery">Plastic Surgery / Reconstructive surgery</option>
-                            <option value="Urology">Urology</option>
-                            <option value="Vascular Surgery">Vascular Surgery</option>
-                            <option value="Sleep Medicine">Sleep Medicine</option>
-                        </select>
-
-                        <input type="text" class="form-control mt-2" placeholder="Doctors Name">
+                        <input type="text" class="form-control mt-2" placeholder="Place">
                         
                         <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
                     </form>
