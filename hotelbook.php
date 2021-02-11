@@ -72,39 +72,36 @@
     <div class="container">
         <div class="card border-0">
             <div class="card-body">
-                <br />
-                <h2 class="font-weight-bold text-center">
-                    Hotel Booking
-                </h2>
-                <br />
                 <section class="mt-2">
-                    <div class="row">
-                        <div class="col">
-                            <label class="text-dark">Where To</label>
-                            <input type="text" class="form-control" />
-                        </div>
-                        <div class="col">
-                            <label class="text-dark">Check In Date</label>
-                            <input type="date" class="form-control" />
-                        </div>
-                        <div class="col">
-                            <label class="text-dark">Check Out Date</label>
-                            <input type="date" class="form-control" />
-                        </div>
-                        <div class="col">
-                            <label class="text-dark">Number of guest</label>
-                            <div class="qty mt-2">
-                                <span class="minus bg-dark">-</span>
-                                <input type="number" class="count" name="qty" value="1">
-                                <span class="plus bg-dark">+</span>
+                <div class="row mt-4">
+                    <div style="margin-top: 2%;" class="col-md">
+                        <div>
+                            <div class="card card-body shadow">
+                            <h2 class="font-weight-bold text-center">
+                                Find the best Hotels
+                            </h2>
+                            <form action="/users/login" method="POST">
+                                <h6 class="text-dark float-left">Where</h6>
+                                <?php include './inc/location2.inc.php' ?>
+                                <h6 class="text-dark text-left mt-1">Check In Date</h6>
+                                <input type="date" class="form-control" name="date" id="">
+                                <h6 class="text-dark text-left mt-2">Check Out Date</h6>
+                                <input type="date" class="form-control" name="date" id="">
+
+                                <label class="text-dark text-left mt-2">Number of guest</label>
+                                <div class="qty mt-2 text-left">
+                                    <span class="minus bg-dark">-</span>
+                                    <input type="number" class="count" name="qty" value="1">
+                                    <span class="plus bg-dark">+</span>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block btn-lg mt-4 shadow">Search</button>
+                            </form>
                             </div>
                         </div>
                     </div>
-                    <center>
-                        <button type="button" class="btn btn-lg btn-primary w-25 mt-2 mb-2">
-                            Search
-                        </button>
-                    </center>
+                </div>
+
+
                     <br />
 
                     <section class="ftco-section">
@@ -137,21 +134,6 @@
                         
                       
 
-                        </div>
-                        <div class="row mt-5">
-                        <div class="col text-center">
-                            <div class="block-27">
-                            <ul>
-                                <li><a href="#">&lt;</a></li>
-                                <li class="active"><span>1</span></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#">&gt;</a></li>
-                            </ul>
-                            </div>
-                        </div>
                         </div>
                         </div>
                     </section>
