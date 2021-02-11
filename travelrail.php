@@ -110,14 +110,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md mt-5">
-                            <section>
-                                <div>
-                                    <br />
-                                    <img class="shadow rounded w-100 mt-4" src="https://i.ytimg.com/vi/sS0VtTjllD0/maxresdefault.jpg" />
-                                </div>
-                            </section>
-                        </div>
                     </div>
 
                     <br />
@@ -216,7 +208,7 @@
                         </div>
                     </div>
 
-                    <table class="table">
+                    <!-- <table class="table">
                         <thead>
                             <tr>
                                 <th width="18%" scope="col">Train Name</th>
@@ -259,7 +251,7 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> -->
                 </section>
 
                 

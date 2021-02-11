@@ -114,13 +114,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md mt-5">
-                <section>
-                    <div>
-                        <img class="shadow rounded w-100 mt-5" src="https://wallpaperaccess.com/full/781959.jpg" />
-                    </div>
-                </section>
-            </div>
         </div>
 
             <div class="card-body">
@@ -213,7 +206,7 @@
                         </div>
                     </div>
 
-                    <table class="table">
+                    <!-- <table class="table">
                         <thead>
                             <tr>
                                 <th width="18%" scope="col">Service Provider</th>
@@ -299,7 +292,7 @@
                             </tr>
                            
                         </tbody>
-                    </table>
+                    </table> -->
                 </section>
 
                 

@@ -120,20 +120,20 @@
             $sql = "SELECT * FROM doctors;";
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) {
-                echo '
-                    <div class="card mt-2">
-                        <div class="card-body">
-                            <span class="float-right">
-                            (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                            </span>
-                            <img src="'.$row['photo'].'" alt="Avatar" class="avatar">
-                            <h5 class="card-title">'.$row['name'].'</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                            <p class="card-text">'.$row['description'].'</p>
-                            <a href="#" class="btn btn-outline-primary float-right">Book Appointment</a>
-                        </div>
-                    </div>
-                ';
+                // echo '
+                //     <div class="card mt-2">
+                //         <div class="card-body">
+                //             <span class="float-right">
+                //             (4.5/5) <i class="fas text-warning h5 fa-star"></i>
+                //             </span>
+                //             <img src="'.$row['photo'].'" alt="Avatar" class="avatar">
+                //             <h5 class="card-title">'.$row['name'].'</h5>
+                //             <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
+                //             <p class="card-text">'.$row['description'].'</p>
+                //             <a href="#" class="btn btn-outline-primary float-right">Book Appointment</a>
+                //         </div>
+                //     </div>
+                // ';
             }
         
         ?>

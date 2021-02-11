@@ -67,7 +67,7 @@
                 <div>
                     <div class="card card-body shadow">
                     <h2 class="font-weight-bold text-center">
-                        Flights
+                        Get the Best Flights Deals
                     </h2>
                     <center>
                         <div class="row mt-2">
@@ -151,17 +151,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md">
-                <br />
-                <section>
-                    <div>
-                        <img class="shadow rounded w-100 mt-2" src="https://i.pinimg.com/originals/93/83/ba/9383bafbd53ae314fbd6b32bab26b640.jpg" />
-                    </div>
-                    <div>
-                        <img class="shadow rounded w-100 mt-2" src="https://www.telegraph.co.uk/content/dam/Travel/2020/Aout/iStock-874388018.jpg" />
-                    </div>
-                </section>
-            </div>
+            
         </div>
 
 
@@ -172,7 +162,7 @@
 
                 <section class="mt-2">
                     <br />
-                    <table class="table">
+                    <!-- <table class="table">
                         <thead>
                             <tr>
                                 <th width="10%" scope="col">Airlines</th>
@@ -251,7 +241,7 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> -->
                 </section>
 
 
