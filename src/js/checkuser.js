@@ -2,7 +2,7 @@ $( document ).ready(function() {
     firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
             $("#checkforuser").html(`
-            <a href="logout.php" class="nav-link">Profile</a>
+            <a href="logout.php" class="nav-link">Signout</a>
             `);
         } else {
             $("#checkforuser").html(`

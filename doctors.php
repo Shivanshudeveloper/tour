@@ -29,6 +29,14 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
   <style>
+    .fake-input { 
+        position: absolute;
+        top: -42px;
+        right: 5px;
+        width: 142vh;
+     }
+    .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+    .fake-input img { position: absolute; top: 2px; right: 5px }
     .avatar {
         vertical-align: middle;
         width: 50px;
@@ -64,37 +72,27 @@
     <div class="container">
         <div class="row mt-4">
             <div style="margin-top: 2%;" class="col-md">
-                <div>
-                    <div class="card card-body shadow">
+                <div class="fake-input">
+                    <img style="width: 98vh;" class="shadow rounded mt-4" src="http://theneutralview.com/wp-content/uploads/2017/10/doctor.jpg" />
+                    <div style="margin-top: 6vh; width: 56%;" class="card card-body shadow">
                     <h2 class="font-weight-bold text-center">
-                        Doctor Appointment
+                        Medical Appointment
                     </h2>
                     <center>
                         <div class="row mt-2">
                             <div class="col">
                                 <a href="doctors.php">
                                     <i class="fas fa-user-md h1 text-primary"></i><br />
-                                    Doctor
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="hospital.php">
-                                    <i class="fas fa-hospital-alt h1 text-secondary"></i> <br />
-                                    Hospital
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="#!">
-                                    <i class="fas fa-city h1 text-secondary"></i> <br />
-                                    City
+                                    Medic
                                 </a>
                             </div>
                         </div>
                     </center>
                     <form action="/users/login" method="POST">
-                        <input type="text" class="form-control mt-2" placeholder="Doctors Name">
+                        <input style="border: 1px solid black;" type="text" class="form-control mt-2" placeholder="Doctors Name">
+                        <input style="border: 1px solid black;" type="text" class="form-control mt-2" placeholder="Hospital Name">
 
-                        <select class="form-control mt-2" id="exampleFormControlSelect1">
+                        <select style="border: 1px solid black;" class="form-control mt-2" id="exampleFormControlSelect1">
                             <option selected>Speciality</option>
                             <option value="Allergy">Allergy</option>
                             <option value="Bariatric Surgery/ obesity management">Bariatric Surgery/ obesity management</option>
@@ -127,20 +125,11 @@
                             <option value="Vascular Surgery">Vascular Surgery</option>
                             <option value="Sleep Medicine">Sleep Medicine</option>
                         </select>
-
-                        <input type="text" class="form-control mt-2" placeholder="Place">
-                        
+                        <input style="border: 1px solid black;" type="text" class="form-control mt-2" placeholder="City">
                         <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
                     </form>
                     </div>
                 </div>
-            </div>
-            <div class="col-md mt-4">
-                <section>
-                    <div>
-                        <img class="shadow rounded w-100 mt-4" src="http://theneutralview.com/wp-content/uploads/2017/10/doctor.jpg" />
-                    </div>
-                </section>
             </div>
         </div>
     </div>
@@ -148,7 +137,6 @@
 
 <section style="padding-top: 8vh;" class="mt-4 mb-4">
     <div class="container">
-      
         <?php
             include_once './src/php/dbh.php';
             $sql = "SELECT * FROM doctors;";
@@ -171,15 +159,31 @@
             }
         
         ?>
-
-        
-
-
     </div>
 </section>
 
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />

@@ -50,7 +50,7 @@
             <div class="text-center">
                 <div class="form-group">
                     <div class="autocomplete" style="width: 100%;">
-                        <input id="myInput" style="color: black;" class="form-control" type="search" name="myCountry" />
+                        <input id="myInput" style="border: 1px solid black; color: black" class="form-control" type="search" name="myCountry" />
                     </div>
                 </div>
             </div>

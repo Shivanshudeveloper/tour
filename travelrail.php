@@ -25,10 +25,18 @@
   <script src="https://kit.fontawesome.com/2915bda088.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  <style>
+    <style>
+    .fake-input { 
+        position: absolute;
+        top: -42px;
+        right: 5px;
+        width: 142vh;
+     }
+    .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+    .fake-input img { position: absolute; top: 2px; right: 5px }
     .avatar {
         vertical-align: middle;
-        width: 80px;
+        width: 50px;
         height: 50px;
         border-radius: 50%;
     }
@@ -69,48 +77,47 @@
             <div class="card-body">
                 <section class="mt-2">
                 <div class="row mt-4">
-                    <div style="margin-top: 2%;" class="col-md">
-                        <div>
-                            <div class="card card-body shadow">
-                                <h2 class="font-weight-bold text-center">
-                                    Rail Tickets
-                                </h2>
-                                <center>
-                                    <div class="row mt-2">
-                                    <div class="col">
-                                        <a href="travel.php">
-                                            <i class="fas fa-plane-departure h1 text-secondary"></i> <br />
-                                            Flight Tickets
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="travelrail.php">
-                                            <i class="fas fa-train h1 text-primary"></i><br />
-                                            Rail Tickets
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="travelcab.php">
-                                            <i class="fas fa-taxi h1 text-secondary"></i> <br />
-                                            Book Cab
-                                        </a>
-                                    </div>
-                                    </div>
-                                </center>
-                                <form action="/users/login" method="POST">
-                                    <br />
-                                    <h6 class="text-dark">From</h6>
-                                    <?php include './inc/location1.inc.php' ?>
-                                    <h6 class="text-dark">To</h6>
-                                    <?php include './inc/location2.inc.php' ?>
-                                    <h6 class="text-dark">Date</h6>
-                                    <input type="date" class="form-control" name="date" id="">
-                                    <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
-                                </form>
-                                </div>
-                            </div>
+
+                <div style="margin-top: 8%;" class="fake-input">
+                    <img style="width: 110vh;" class="shadow rounded mt-4" src="https://school.eckovation.com/wp-content/uploads/2018/04/thumb-1920-437778.jpg" />
+                    <div style="margin-top: 6vh; width: 50%;" class="card card-body shadow">
+                    <h2 class="font-weight-bold text-center">
+                        Rail Tickets
+                    </h2>
+                    <center>
+                        <div class="row mt-2">
+                        <div class="col">
+                            <a href="travel.php">
+                                <i class="fas fa-plane-departure h1 text-secondary"></i> <br />
+                                Flight Tickets
+                            </a>
                         </div>
+                        <div class="col">
+                            <a href="travelrail.php">
+                                <i class="fas fa-train h1 text-primary"></i><br />
+                                Rail Tickets
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="travelcab.php">
+                                <i class="fas fa-taxi h1 text-secondary"></i> <br />
+                                Book Cab
+                            </a>
+                        </div>
+                        </div>
+                    </center>
+                    <form action="/users/login" method="POST">
+                        <br />
+                        <h6 class="text-dark">From</h6>
+                        <?php include './inc/location1.inc.php' ?>
+                        <h6 class="text-dark">To</h6>
+                        <?php include './inc/location2.inc.php' ?>
+                        <h6 class="text-dark">Date</h6>
+                        <input type="date" class="form-control" name="date" id="">
+                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
+                    </form>
                     </div>
+                </div>
 
                     <br />
                     <br />
@@ -270,6 +277,26 @@
 
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />

@@ -28,15 +28,22 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
-  <style>
-    .avatar {
-        vertical-align: middle;
-        width: 80px;
-        height: 50px;
-        border-radius: 50%;
-    }
-    
-  </style>
+    <style>
+        .fake-input { 
+            position: absolute;
+            top: -42px;
+            right: 5px;
+            width: 142vh;
+        }
+        .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+        .fake-input img { position: absolute; top: 2px; right: 5px }
+        .avatar {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
@@ -61,11 +68,13 @@
 </nav>
  <!-- END nav -->
     <section class="ftco-section ftco-no-pb contact-section mb-4 mt-4">
+
     <div class="container">
         <div class="row mt-4">
             <div style="margin-top: 2%;" class="col-md">
-                <div>
-                    <div class="card card-body shadow">
+                <div class="fake-input">
+                    <img style="width: 100vh;" class="shadow rounded mt-4" src="https://londonairtravel.com/wp-content/uploads/2019/02/British-Airways-Boeing-777-9.jpg" />
+                    <div style="margin-top: 6vh; width: 56%;" class="card card-body shadow">
                     <h2 class="font-weight-bold text-center">
                         Get the Best Flights Deals
                     </h2>
@@ -118,7 +127,7 @@
                         <div class="row mt-2 mb-2">
                             <div class="col">
                                 <h6 class="text-dark">Date</h6>
-                                <input type="date" class="form-control" name="date" id="">
+                                <input style="border: 1px solid black;" type="date" class="form-control" name="date" id="">
                             </div>
                         </div>
                         <div class="row mt-2 mb-2">
@@ -151,11 +160,11 @@
                     </div>
                 </div>
             </div>
-            
         </div>
+    </div>
 
 
-
+    <div style="margin-top: 88vh;" class="container">
         <div class="card border-0">
             <div class="card-body">
                 <br />
@@ -258,6 +267,26 @@
 
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />

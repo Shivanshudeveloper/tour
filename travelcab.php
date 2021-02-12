@@ -30,14 +30,22 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
-  <style>
+    <style>
+    .fake-input { 
+        position: absolute;
+        top: -42px;
+        right: 5px;
+        width: 142vh;
+     }
+    .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+    .fake-input img { position: absolute; top: 2px; right: 5px }
     .avatar {
         vertical-align: middle;
-        width: 80px;
+        width: 50px;
         height: 50px;
         border-radius: 50%;
     }
-  </style>
+    </style>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
@@ -69,9 +77,10 @@
         <br />
         <div class="card border-0">
         <div class="row mt-4">
-            <div style="margin-top: 2%;" class="col-md">
-                <div>
-                    <div class="card card-body shadow">
+
+                <div style="margin-top: 4%;" class="fake-input">
+                    <img style="width: 120vh;" class="shadow rounded mt-4" src="https://wallpapercave.com/wp/wp3097232.jpg" />
+                    <div style="margin-top: 6vh; width: 56%;" class="card card-body shadow">
                     <h2 class="font-weight-bold text-center">
                         Cabs
                     </h2>
@@ -113,7 +122,8 @@
                     </form>
                     </div>
                 </div>
-            </div>
+
+
         </div>
 
             <div class="card-body">
@@ -311,6 +321,26 @@
 
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
