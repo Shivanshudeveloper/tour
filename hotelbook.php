@@ -88,18 +88,8 @@
                         <img style="width: 120vh;" class="shadow rounded mt-4" src="https://dtto066vr4z0c.cloudfront.net/id2414_107540.jpg" />
                         <div style="margin-top: 6vh; width: 56%;" class="card card-body shadow">
                         <h2 class="font-weight-bold text-center">
-                        Find the best Hotels
+                        Find the your best Hotels
                         </h2>
-                        <center>
-                            <div class="row mt-2">
-                                <div class="col">
-                                    <a href="doctors.php">
-                                        <i class="fas fa-user-md h1 text-primary"></i><br />
-                                        Medic
-                                    </a>
-                                </div>
-                            </div>
-                        </center>
                             <form action="/users/login" method="POST">
                                 <h6 class="text-dark float-left">Where</h6>
                                 <?php include './inc/location2.inc.php' ?>
