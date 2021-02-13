@@ -328,6 +328,22 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
-
+<script src="src/js/firebase-config.js"></script>
+<script src="src/js/main.js"></script>
+<script>
+    $( document ).ready(function() {
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                $("#checkforuser").html(`
+                <a href="logout.php" class="nav-link">Signout</a>
+                `);
+            } else {
+                $("#checkforuser").html(`
+                <a href="signin.php" class="nav-link">Sign In / Sign Up</a>
+                `);
+            }
+        });
+    });
+</script>
 </body>
 </html>
