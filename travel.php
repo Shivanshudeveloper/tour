@@ -274,6 +274,20 @@
 
 <script src="src/js/firebase-config.js"></script>
 <script src="src/js/main.js"></script>
-<script src="src/js/checkuser.js"></script>
+<script>
+    $( document ).ready(function() {
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                $("#checkforuser").html(`
+                <a href="logout.php" class="nav-link">Signout</a>
+                `);
+            } else {
+                $("#checkforuser").html(`
+                <a href="signin.php" class="nav-link">Sign In / Sign Up</a>
+                `);
+            }
+        });
+    });
+</script>
 </body>
 </html>
