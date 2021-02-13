@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Pacific - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Travel</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -26,21 +26,25 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <style>
-    .fake-input { 
-        position: absolute;
-        top: -42px;
-        right: 5px;
-        width: 142vh;
-     }
-    .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
-    .fake-input img { position: absolute; top: 2px; right: 5px }
-    .avatar {
-        vertical-align: middle;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
-  </style>
+        .fake-input { 
+            position: absolute;
+            top: -42px;
+            width: 142vh;
+            margin-left: 8vh;
+        }
+        .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+        .fake-input img { 
+            position: absolute; 
+            top: 2px; 
+            margin-left: 45%;
+        }
+        .avatar {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
@@ -52,7 +56,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
     <div class="container">
-     <a class="navbar-brand" href="index.html"><span>Travel Agency</span></a>
+     <a class="navbar-brand" href="index.php"><span>Travel Agency</span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
        <span class="oi oi-menu"></span> Menu
      </button>
@@ -72,14 +76,14 @@
  </nav>
  <!-- END nav -->
 <section class="ftco-section ftco-no-pb contact-section mb-4">
-    <div class="container">
+    <div class="mr-5">
         <div class="card border-0">
             <div class="card-body">
                 <section class="mt-2">
                 <div class="row mt-4">
 
                 <div style="margin-top: 8%;" class="fake-input">
-                    <img style="width: 110vh;" class="shadow rounded mt-4" src="https://school.eckovation.com/wp-content/uploads/2018/04/thumb-1920-437778.jpg" />
+                    <img style="width: 122vh; height: 98%;" class="shadow rounded mt-4" src="https://school.eckovation.com/wp-content/uploads/2018/04/thumb-1920-437778.jpg" />
                     <div style="margin-top: 6vh; width: 50%;" class="card card-body shadow">
                     <h2 class="font-weight-bold text-center">
                         Rail Tickets
@@ -113,7 +117,7 @@
                         <h6 class="text-dark">To</h6>
                         <?php include './inc/location2.inc.php' ?>
                         <h6 class="text-dark">Date</h6>
-                        <input type="date" class="form-control" name="date" id="">
+                        <input style="border: 1px solid black; color: gray !important;" type="date" class="form-control" name="date" id="">
                         <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
                     </form>
                     </div>

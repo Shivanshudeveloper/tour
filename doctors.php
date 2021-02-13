@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Pacific - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Travel</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -28,27 +28,31 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
-  <style>
-    .fake-input { 
-        position: absolute;
-        top: -42px;
-        right: 5px;
-        width: 142vh;
-     }
-    .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
-    .fake-input img { position: absolute; top: 2px; right: 5px }
-    .avatar {
-        vertical-align: middle;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
-  </style>
+    <style>
+        .fake-input { 
+            position: absolute;
+            top: -42px;
+            width: 142vh;
+            margin-left: 8vh;
+        }
+        .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+        .fake-input img { 
+            position: absolute; 
+            top: 8px; 
+            margin-left: 40%;
+        }
+        .avatar {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
    <div class="container">
-     <a class="navbar-brand" href="index.html"><span>Travel Agency</span></a>
+     <a class="navbar-brand" href="index.php"><span>Travel Agency</span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
        <span class="oi oi-menu"></span> Menu
      </button>
@@ -65,16 +69,16 @@
         </ul>
     </div>
    </div>
- </nav>
+</nav>
  <!-- END nav -->
+    <section class="ftco-section ftco-no-pb contact-section mb-4 mt-4">
 
-<section style="margin-top: 40px;" class="ftco-section ftco-no-pb contact-section mb-4">
-    <div class="container">
+    <div class="mr-5">
         <div class="row mt-4">
-            <div style="margin-top: 2%;" class="col-md">
+            <div style="margin-top: 6%;" class="col-md">
                 <div class="fake-input">
-                    <img style="width: 98vh;" class="shadow rounded mt-4" src="http://theneutralview.com/wp-content/uploads/2017/10/doctor.jpg" />
-                    <div style="margin-top: 6vh; width: 56%;" class="card card-body shadow">
+                    <img style="width: 122vh; height: 98%;" class="shadow rounded mt-4" src="http://theneutralview.com/wp-content/uploads/2017/10/doctor.jpg" />
+                    <div style="margin-top: 10vh; width: 56%;" class="card card-body shadow">
                     <h2 class="font-weight-bold text-center">
                         Medical Appointment
                     </h2>
@@ -83,7 +87,6 @@
                             <div class="col">
                                 <a href="doctors.php">
                                     <i class="fas fa-user-md h1 text-primary"></i><br />
-                                    Medic
                                 </a>
                             </div>
                         </div>
@@ -130,7 +133,101 @@
                     </form>
                     </div>
                 </div>
-                
+            </div>
+        </div>
+    </div>
+
+
+    <div style="margin-top: 88vh;" class="container">
+        <div class="card border-0">
+            <div class="card-body">
+                <br />
+
+                <section class="mt-2">
+                    <br />
+                    <!-- <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="10%" scope="col">Airlines</th>
+                                <th scope="col">Take Off Time</th>
+                                <th scope="col">Landing Time</th>
+                                <th scope="col">Class</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/thmbnail.jpg" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                </section>
+
+
             </div>
         </div>
     </div>
@@ -138,28 +235,7 @@
 
 <section style="padding-top: 8vh;" class="mt-4 mb-4">
     <div class="container">
-        <?php
-            include_once './src/php/dbh.php';
-            $sql = "SELECT * FROM doctors;";
-            $result = mysqli_query($conn, $sql);
-            while ($row = mysqli_fetch_assoc($result)) {
-                // echo '
-                //     <div class="card mt-2 shadow">
-                //         <div class="card-body">
-                //             <span class="float-right">
-                //             (4.5/5) <i class="fas text-warning h5 fa-star"></i>
-                //             </span>
-                //             <img src="'.$row['photo'].'" alt="Avatar" class="avatar">
-                //             <h5 class="card-title">'.$row['name'].'</h5>
-                //             <h6 class="card-subtitle mb-2 text-muted">New Delhi</h6>
-                //             <p class="card-text">'.$row['description'].'</p>
-                //             <a href="#" class="btn btn-outline-primary float-right">Book Appointment</a>
-                //         </div>
-                //     </div>
-                // ';
-            }
         
-        ?>
     </div>
 </section>
 

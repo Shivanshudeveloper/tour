@@ -453,3 +453,101 @@
 			
 </body>
 </html>
+
+
+
+
+<!-- Flight Tickets -->
+<div style="margin-top: 88vh;" class="container">
+        <div class="card border-0">
+            <div class="card-body">
+                <br />
+
+                <section class="mt-2">
+                    <br />
+                    <!-- <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="10%" scope="col">Airlines</th>
+                                <th scope="col">Take Off Time</th>
+                                <th scope="col">Landing Time</th>
+                                <th scope="col">Class</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/thmbnail.jpg" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
+                                </td>
+                                <td>9:30 AM IST</td>
+                                <td>11:30 AM IST</td>
+                                <td>
+                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option value="Economy">Economy</option>
+                                        <option value="First Class">First Class</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Rs. 19,000/- 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                </section>
+
+
+            </div>
+        </div>
+    </div>

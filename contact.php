@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Pacific - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Travel</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -39,7 +39,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
     <div class="container">
-     <a class="navbar-brand" href="index.html"><span>Travel Agency</span></a>
+     <a class="navbar-brand" href="index.php"><span>Travel Agency</span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
        <span class="oi oi-menu"></span> Menu
      </button>
@@ -93,6 +93,50 @@
             </div>
         </div>
     </div>
+</section>
+
+
+<section class="ftco-section ftco-no-pb contact-section mb-4">
+  <div class="container">
+    <div class="row d-flex contact-info">
+      <div class="col-md-3 d-flex">
+       <div class="align-self-stretch box p-4 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+         <span class="fa fa-map-marker"></span>
+       </div>
+       <h3 class="mb-2">Address</h3>
+       <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+     </div>
+   </div>
+   <div class="col-md-3 d-flex">
+     <div class="align-self-stretch box p-4 text-center">
+      <div class="icon d-flex align-items-center justify-content-center">
+       <span class="fa fa-phone"></span>
+     </div>
+     <h3 class="mb-2">Contact Number</h3>
+     <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+   </div>
+ </div>
+ <div class="col-md-3 d-flex">
+   <div class="align-self-stretch box p-4 text-center">
+    <div class="icon d-flex align-items-center justify-content-center">
+     <span class="fa fa-paper-plane"></span>
+   </div>
+   <h3 class="mb-2">Email Address</h3>
+   <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+ </div>
+</div>
+<div class="col-md-3 d-flex">
+ <div class="align-self-stretch box p-4 text-center">
+  <div class="icon d-flex align-items-center justify-content-center">
+   <span class="fa fa-globe"></span>
+ </div>
+ <h3 class="mb-2">Website</h3>
+ <p><a href="#">yoursite.com</a></p>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 

@@ -54,7 +54,11 @@
             <h1><a href="#"><img src="home/assets/img/APMH Final.png"></a></h1>
             <h2>Brand Slogan</h2>
             <p>Be sure to follow us on our social platforms as we launch.</p>            
-            <!-- <span class="toggleicon" onclick="openNav()">&#9776;</span> -->
+            <span class="toggleicon">
+                <a style="color: #fff; margin: 5vh" href="register.php">
+                    Sign Up/ Sign In
+                </a>
+            </span>
         </div>
         <div class="landinginn2">
             <a class="icon-doctor" href="doctors.php" title="Doctor Appointment" data-toggle="tooltip" data-placement="top" title="Doctor Appointment" /><img src="home/assets/img/icon-doctor.png" alt="Doctor" /></a>

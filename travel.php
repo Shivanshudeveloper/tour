@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Pacific - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Travel</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -32,11 +32,15 @@
         .fake-input { 
             position: absolute;
             top: -42px;
-            right: 5px;
             width: 142vh;
+            margin-left: 8vh;
         }
         .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
-        .fake-input img { position: absolute; top: 2px; right: 5px }
+        .fake-input img { 
+            position: absolute; 
+            top: 2px; 
+            margin-left: 45%;
+        }
         .avatar {
             vertical-align: middle;
             width: 50px;
@@ -48,7 +52,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" style="background-color: #343a40 !important;" id="ftco-navbar">
    <div class="container">
-     <a class="navbar-brand" href="index.html"><span>Travel Agency</span></a>
+     <a class="navbar-brand" href="index.php"><span>Travel Agency</span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
        <span class="oi oi-menu"></span> Menu
      </button>
@@ -69,11 +73,11 @@
  <!-- END nav -->
     <section class="ftco-section ftco-no-pb contact-section mb-4 mt-4">
 
-    <div class="container">
+    <div class="mr-5">
         <div class="row mt-4">
-            <div style="margin-top: 2%;" class="col-md">
+            <div style="margin-top: 8%;" class="col-md">
                 <div class="fake-input">
-                    <img style="width: 100vh;" class="shadow rounded mt-4" src="https://londonairtravel.com/wp-content/uploads/2019/02/British-Airways-Boeing-777-9.jpg" />
+                    <img style="width: 124vh; height: 98%;" class="shadow rounded mt-4" src="https://londonairtravel.com/wp-content/uploads/2019/02/British-Airways-Boeing-777-9.jpg" />
                     <div style="margin-top: 6vh; width: 56%;" class="card card-body shadow">
                     <h2 class="font-weight-bold text-center">
                         Get the Best Flights Deals
@@ -101,16 +105,20 @@
                         </div>
                     </center>
                     <form action="/users/login" method="POST">
-                        
                         <div class="row mt-4">
                             <div class="col">
-                                <button class="btn btn-primary btn-block">
-                                    Domestic
+                                <button class="btn btn-outline-primary btn-block">
+                                    One Way
                                 </button>
                             </div>
                             <div class="col">
                                 <button class="btn btn-outline-primary btn-block">
-                                    International
+                                    Round Trip
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-primary btn-block">
+                                    Multi City
                                 </button>
                             </div>
                         </div>
@@ -127,32 +135,7 @@
                         <div class="row mt-2 mb-2">
                             <div class="col">
                                 <h6 class="text-dark">Date</h6>
-                                <input style="border: 1px solid black;" type="date" class="form-control" name="date" id="">
-                            </div>
-                        </div>
-                        <div class="row mt-2 mb-2">
-                            <div class="col">
-                                <div class="card border-0">
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Departure From</h6>
-                                    <h5 class="card-title">New Delhi</h5>
-                                    <h6 class="mb-2">DEL</h6>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <center style="margin-top: 40px;">
-                                <i class="fas h1 text-danger fa-arrows-alt-h"></i>
-                                </center>
-                            </div>
-                            <div class="col">
-                                <div class="card border-0">
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Going To</h6>
-                                    <h5 class="card-title">Mumbai</h5>
-                                    <h6 class="mb-2">BDM</h6>
-                                </div>
-                                </div>
+                                <input style="border: 1px solid black; color: gray !important;" type="date" class="form-control" name="date" id="">
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block btn-lg mt-2 shadow">Search</button>
@@ -164,99 +147,7 @@
     </div>
 
 
-    <div style="margin-top: 88vh;" class="container">
-        <div class="card border-0">
-            <div class="card-body">
-                <br />
-
-                <section class="mt-2">
-                    <br />
-                    <!-- <table class="table">
-                        <thead>
-                            <tr>
-                                <th width="10%" scope="col">Airlines</th>
-                                <th scope="col">Take Off Time</th>
-                                <th scope="col">Landing Time</th>
-                                <th scope="col">Class</th>
-                                <th scope="col">Price</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    Rs. 19,000/- 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <img src="https://www.goindigo.in/content/dam/indigov2/6e-website/thmbnail.jpg" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    Rs. 19,000/- 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    Rs. 19,000/- 
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Vistara_logo.svg/1200px-Vistara_logo.svg.png" style="width: 90%;" />
-                                </td>
-                                <td>9:30 AM IST</td>
-                                <td>11:30 AM IST</td>
-                                <td>
-                                  <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-                                        <option value="Economy">Economy</option>
-                                        <option value="First Class">First Class</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    Rs. 19,000/- 
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table> -->
-                </section>
-
-
-            </div>
-        </div>
-    </div>
+    
 </section>
 
 <section style="padding-top: 8vh;" class="mt-4 mb-4">
