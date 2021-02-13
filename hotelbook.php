@@ -30,10 +30,18 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
-  <style>
+    <style>
+    .fake-input { 
+        position: absolute;
+        top: -42px;
+        right: 5px;
+        width: 142vh;
+     }
+    .fake-input input { border:none; background-color:#fff; display:block; width: 100%; box-sizing: border-box }
+    .fake-input img { position: absolute; top: 2px; right: 5px }
     .avatar {
         vertical-align: middle;
-        width: 80px;
+        width: 50px;
         height: 50px;
         border-radius: 50%;
     }
@@ -75,29 +83,70 @@
                 <section class="mt-2">
                 <div class="row mt-4">
                     <div style="margin-top: 2%;" class="col-md">
-                        <div>
-                            <div class="card card-body shadow">
-                            <h2 class="font-weight-bold text-center">
-                                Find the best Hotels
-                            </h2>
+
+                    <div class="fake-input">
+                        <img style="width: 120vh;" class="shadow rounded mt-4" src="https://dtto066vr4z0c.cloudfront.net/id2414_107540.jpg" />
+                        <div style="margin-top: 6vh; width: 56%;" class="card card-body shadow">
+                        <h2 class="font-weight-bold text-center">
+                        Find the best Hotels
+                        </h2>
+                        <center>
+                            <div class="row mt-2">
+                                <div class="col">
+                                    <a href="doctors.php">
+                                        <i class="fas fa-user-md h1 text-primary"></i><br />
+                                        Medic
+                                    </a>
+                                </div>
+                            </div>
+                        </center>
                             <form action="/users/login" method="POST">
                                 <h6 class="text-dark float-left">Where</h6>
                                 <?php include './inc/location2.inc.php' ?>
                                 <h6 class="text-dark text-left mt-1">Check In Date</h6>
-                                <input type="date" class="form-control" name="date" id="">
+                                <input style="border: 1px solid black;" type="date" class="form-control" name="date" id="">
                                 <h6 class="text-dark text-left mt-2">Check Out Date</h6>
-                                <input type="date" class="form-control" name="date" id="">
+                                <input style="border: 1px solid black;" type="date" class="form-control" name="date" id="">
 
-                                <label class="text-dark text-left mt-2">Number of guest</label>
-                                <div class="qty mt-2 text-left">
-                                    <span class="minus bg-dark">-</span>
-                                    <input type="number" class="count" name="qty" value="1">
-                                    <span class="plus bg-dark">+</span>
+                                <div class="row">
+                                    <div class="col-md">
+                                        <select style="border: 1px solid black;" class="form-control mt-2" id="exampleFormControlSelect1">
+                                            <option selected>Adults</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md">
+                                        <select style="border: 1px solid black;" class="form-control mt-2" id="exampleFormControlSelect1">
+                                            <option selected>Children</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-block btn-lg mt-4 shadow">Search</button>
                             </form>
-                            </div>
                         </div>
+                    </div>
+
+              
+
                     </div>
                 </div>
 
@@ -151,6 +200,29 @@
 
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
